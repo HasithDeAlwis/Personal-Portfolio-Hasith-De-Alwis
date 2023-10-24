@@ -5,8 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#00040f",
-        secondary: "#00f6ff",
+        primary: "#FFFCEF",
+        primarytext: "#00040f",
+        secondary: "#F3F2DC",
+        queenBlue: "#3B6E99",
+        moonStone: "#6CC1C3",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
