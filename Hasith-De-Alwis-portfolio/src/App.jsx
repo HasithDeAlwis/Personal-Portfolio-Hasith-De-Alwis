@@ -3,6 +3,7 @@ import styles from './styles';
 import { Navbar, Feedback, MainSection, Projects, Button} from './components';
 /**Weird bug occurs when I import Footer from the es6 deconstruction line above */
 import Footer from './components/Footer.jsx'
+import {Route, Routes} from "react-router-dom";
 
 const App = () => {
   return (
