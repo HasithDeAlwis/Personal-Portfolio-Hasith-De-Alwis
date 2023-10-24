@@ -12,7 +12,7 @@ const MainSection = () => {
   return (
     <section id="home" className = "flex flex-col sm:flex-row p-85 pb-10 items-center justify-between">
       <div className = "pt-5 flex flex-1 justify-center basis-full sm:basis-1/4 p-4">
-        <img src={mainImage} className = "hover:scale-95 transition duration-500"/>
+        <img src={mainImage} alt="accent photo of Hasith" className = "hover:scale-95 transition duration-500"/>
       </div>
 
       <div className="w-11/12 sm:w-3/4 flex flex-1 sm:items-start items-center justify-center flex-col sm:basis-1/3">
@@ -33,9 +33,9 @@ const MainSection = () => {
         </div>
       </div>
       <div className = "sm:pl-10 flex flex-initial basis-1/4 sm:flex-col sm:justify-center flex-row justify-center">
-        <img src={gmail} className = "w-[40px] h-[40px] m-3"/>
-        <img src={linkedin} className = "w-[50px] h-[50px] m-3"/>
-        <img src={instagram} className = "w-[50px] h-[50px] m-3"/>
+        <a href="mailto:hasithde24@gmail.com"> <img src={gmail} alt="gmail link and gmail icon" className = "cursor-pointer w-[40px] h-[40px] m-3"/></a>
+        <a href="https://www.linkedin.com/in/hasith-de-alwis-09aba4295/"> <img alt="linkedin link and linkedin icon" src={linkedin} className = "cursor-pointer w-[50px] h-[50px] m-3"/></a>
+        <a href="https://www.instagram.com/hasith_101/"> <img src={instagram} alt="instagram link and instagram icon" className = "cursor-pointer w-[50px] h-[50px] m-3"/></a>
       </div>
 
       
